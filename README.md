@@ -74,3 +74,5 @@ Internet:
 
 	2. http://siret.ms.mff.cuni.cz/hoksza/courses/bioinformatics
 	3. http://www.cse.chalmers.se/~kemp/teaching/UMF018/2010-2011/sequence2.pdf
+	4. https://freesasa.github.io/python/
+	5. https://biopython.org/wiki/The_Biopython_Structural_Bioinformatics_FAQ
