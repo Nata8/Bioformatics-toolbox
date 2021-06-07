@@ -1,0 +1,47 @@
+TASK: Use the structures of A2a and caffeine receptor and hemoglobin (1b0b) to quantify the portion surface and buried amino acids 
+and also the portion of polar amino acids from previous task.
+
+--------------------------------------------------
+                 1B0B - HEMOGLOBIN
+--------------------------------------------------
+➢  Diameter:                      47.66 
+➢  All amino acids:               141 
+
+➢  Surface amino acids:           93 
+   ○ Polar:                       51 
+   ○ Apolar:                      42 
+
+➢  Burried amino acids:           48 
+   ○ Polar:                       5 
+   ○ Apolar:                      43 
+--------------------------------------------------
+     Ratio of surface and buried amino acids:     
+--------------------------------------------------
+➢  31 : 16 = 1,94
+--------------------------------------------------
+
+--------------------------------------------------
+            A2a and CAFFEINE RECEPTOR
+--------------------------------------------------
+➢  Diameter:                      63.07 
+➢  All amino acids:               309   
+
+➢  Surface amino acids:           183 
+   ○ Polar:                       73 
+   ○ Apolar:                      110 
+
+➢  Burried amino acids:           126 
+   ○ Polar:                       44 
+   ○ Apolar:                      82 
+--------------------------------------------------
+     Ratio of surface and buried amino acids:     
+--------------------------------------------------
+➢  61 : 42 = 1,45
+--------------------------------------------------
+
+Hemoglobin structure is smaller than the second structure. Ratio of surface and buried amino acids is slightly smaller in case of A2a and caffeine receptor. 
+To my mind, the significant difference is the portion of polar and apolar burried amino acids. This can be caused by shape of protein (for instance bigger surface). 
+
+
+
+
