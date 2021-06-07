@@ -46,7 +46,7 @@ The numeric index of column is necessary for this task. Result is a conservative
 score for given column using minimum entropy.
  
 
-The next two tasks have been programmed in BioPython using terminal.
+The next two tasks have been programmed in Python. Output displays at the terminal.
 Pdbparser.py is the basis for both tasks. Data are downloaded from PDB database, stored at pdb_files folder.
 
 6. Processing PDB files (proccespbd.py)
