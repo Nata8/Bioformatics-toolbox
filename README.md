@@ -54,6 +54,7 @@ First, the user have to enter four-digit PDB identifier. If the file is not alre
 the PDB file will be downloaded and stored. The implementation provides following functions as an output:
 	- proteine structure width
 	- number of models, chains, residues and atoms
+
 Subsequently, the user should enter the serial number of a ligand and radius (distance from given ligand).
 Ligands can be found in PDB file - lines starting with HETATM. The output is a list of atoms and residues
 being in given distance from given ligand and coordinates of ligand.
