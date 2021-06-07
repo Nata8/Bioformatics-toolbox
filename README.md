@@ -65,6 +65,7 @@ With help of the previous PDB parser, the implementation provides following func
 - a histogram of amino acids composition of buried and exposed amino acids
 - a portion of polar amino acids in the core and on the surface of the protein
 
+
 Some of the assumptions made in these tasks are not entirely realistic.
 
 SOURCES:
