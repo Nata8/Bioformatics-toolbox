@@ -70,6 +70,7 @@ being in given distance from given ligand and coordinates of ligand.
 7. Computing structure-related properties (structpropts.py)
 
 With help of the previous PDB parser, the implementation provides following functions as an output:
+
 		- the diameter of the protein and the ratio of surface and buried amino acids
 		- a histogram of amino acids composition of buried and exposed amino acids
 		- a portion of polar amino acids in the core and on the surface of the protein
