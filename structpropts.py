@@ -73,7 +73,7 @@ def main():
     amino_residues_dict = {residue_id: residue for residue_id, residue in dict(list(result.residueAreas().values())[0]).items()}
     amino_residues = [residue for residue in amino_residues_dict.values()]
 
-    # Create a list for surface residues
+    # Create a list for surface residues, threshold selected according to Chen, see sources
     surface_residue_list = []
     for amino_residue in amino_residues:
         if amino_residue.relativeTotal > 0.2:
