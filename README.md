@@ -76,7 +76,7 @@ Some of the assumptions made in these tasks are not entirely realistic.
 SOURCES:
 1. Chen, H. (2005). Prediction of solvent accessibility and sites of deleterious mutations from protein sequence. Nucleic Acids Research, 33(10), 3193–3199.
 
-Internet:
+Internet sources:
 
 	2. http://siret.ms.mff.cuni.cz/hoksza/courses/bioinformatics
 	3. http://www.cse.chalmers.se/~kemp/teaching/UMF018/2010-2011/sequence2.pdf
