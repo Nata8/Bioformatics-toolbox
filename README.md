@@ -22,7 +22,7 @@ Data are extracted from the same fasta file mentioned above.
 In this part, the user should select two molecules to calculate 
 their Hamming distance (the number of positions in which these 
 sequences differ). If the molecules differ in lenght, 
-error message "lenghts are different" is shown. 
+error message "lengths are different" is shown. 
 
 3. Sequence alignment using edit distance (select number 3)
 If the user wants to see the sequence alignment and edit distance value, 
