@@ -65,6 +65,7 @@ With help of the previous PDB parser, the implementation provides following func
 	- the diameter of the protein and the ratio of surface and buried amino acids
 	- a histogram of amino acids composition of buried and exposed amino acids
 	- a portion of polar amino acids in the core and on the surface of the protein
+
 Ratio of the surface and buried amino acids is computed using FreeSaSa Pythom module. 
 First, freesasa value is calculated and residues are divided into two groups then based on this value.
 Buried group - freesasa value lower than 0.2 (threshold is set according to first source written by Chen). 
