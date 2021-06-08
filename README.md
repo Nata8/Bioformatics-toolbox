@@ -8,11 +8,11 @@ First five assignments have been programmed in Java.
 The user selects from the menu using numbers in terminal.
 
 1. FASTA parser (select number 1)
-Data are extracted from fasta file with examples of moleucules.
+Data are extracted from fasta file with examples of molecules.
 The user can see all possible molecule names from that file. 
 Second menu with following options:
 	1. Return whether the given subsequence occurs in the file
-	   case-insensitive
+	   (case-insensitive)
 	2. Return sequence length for given sequence
 	3. Return information about selected molecule 
 	   - name, amino acid sequence and its length
@@ -20,12 +20,13 @@ Second menu with following options:
 2. Measuring sequence similarity using Hamming distance (select number 2)
 Data are extracted from the same fasta file mentioned above. 
 In this part, the user should select two molecules to calculate 
-their Hamming distance. If the molecules differ in lenght, 
+their Hamming distance (the number of positions in which these 
+sequences differ). If the molecules differ in lenght, 
 error message "lenghts are different" is shown. 
 
 3. Sequence alignment using edit distance (select number 3)
 If the user wants to see the sequence alignment and edit distance value, 
-she/he should write down two sequences. Optimal alignemtns are obtained
+she/he should write down two sequences. Optimal alignmentns are obtained
 by dynamic programming (function ed) and backtracking (procedure backtracking).
 
 4. Processing multiple sequence alignment (select number 4)
@@ -43,17 +44,17 @@ There are four options to choose in this section:
 Originally, the program is using msa.txt file with sequence of DNA binding domain. 
 Hovewer, this can be changed inside class ConservationScoreRun -- msaPArser. 
 The numeric index of column is necessary for this task. Result is a conservative
-score for given column using minimum entropy.
+score for given column using minimum entropy (see third source).
  
 
 The next two tasks have been programmed in Python. Output displays at the terminal.
-Pdbparser.py is the basis for both tasks. Data are downloaded from PDB database, stored at pdb_files folder.
+Pdbparser.py is the basic parser used in both tasks. Data are downloaded from PDB database, stored at pdb_files folder.
 
 6. Processing PDB files (proccespbd.py)
 First, the user have to enter four-digit PDB identifier. If the file is not already downloaded,
 the PDB file will be downloaded and stored. The implementation provides following functions as an output:
-	- proteine structure width
-	- number of models, chains, residues and atoms
+	- proteine structure width (maximum of distance of any two atoms)
+	- number of models, chains, residues and atoms in the structure
 
 Subsequently, the user should enter the serial number of a ligand and radius (distance from given ligand).
 Ligands can be found in PDB file - lines starting with HETATM. The output is a list of atoms and residues
@@ -61,9 +62,12 @@ being in given distance from given ligand and coordinates of ligand.
 
 7. Computing structure-related properties (structpropts.py)
 With help of the previous PDB parser, the implementation provides following functions as an output:
-- the diameter of the protein and the ratio of surface and buried amino acids
-- a histogram of amino acids composition of buried and exposed amino acids
-- a portion of polar amino acids in the core and on the surface of the protein
+	- the diameter of the protein and the ratio of surface and buried amino acids
+	- a histogram of amino acids composition of buried and exposed amino acids
+	- a portion of polar amino acids in the core and on the surface of the protein
+Ratio of the surface and buried amino acids is computed using FreeSaSa Pythom module. 
+First, freesasa value is calculated and residues are divided into two groups then based on this value.
+Buried group - freesasa value lower than 0.2 (threshold is set according to first source written by Chen). 
 
 
 Some of the assumptions made in these tasks are not entirely realistic.
