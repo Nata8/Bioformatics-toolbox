@@ -4,13 +4,9 @@ Implementations of basic methods from the field of sequence and structural
 bioinformatics for mff course with id NDBI044
 
 
-First five assignments have been programmed in Java.
+First five assignments have been programmed in Java 8.
 The user selects from the menu using numbers in terminal.
 
-REQUIREMENTS:
-	- Python version 3.7.9
-	- Biopython (pip install biopython)
-	- Freesasa (pip install freesasa)
 
 1. FASTA parser (select number 1)
 
@@ -60,6 +56,11 @@ score for given column using minimum entropy (see third source).
 
 Next two tasks have been programmed in Python. Output displays at the terminal.
 Pdbparser.py is the basic parser used in both tasks. Data are downloaded from PDB database, stored at pdb_files folder.
+
+REQUIREMENTS:
+	- Python version 3.7.9
+	- Biopython (pip install biopython)
+	- Freesasa (pip install freesasa)
 
 6. Processing PDB files (proccespbd.py)
 
