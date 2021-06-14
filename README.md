@@ -4,7 +4,7 @@ Implementations of basic methods from the field of sequence and structural
 bioinformatics for mff course with id NDBI044
 
 
-First five assignments have been programmed in Java. At least version 8 is necessary for compilation. 
+First five assignments have been programmed in Java. Java 8 or later is necessary for compilation. 
 The user selects from the menu using numbers in terminal.
 
 
