@@ -4,7 +4,8 @@ Implementations of basic methods from the field of sequence and structural
 bioinformatics for mff course with id NDBI044
 
 
-First five assignments have been programmed in Java. Java 8 or later is necessary for compilation. 
+First five assignments have been programmed in Java (repository Bioinformatics_toolbox_2nd). 
+Java 8 or later is necessary for compilation. 
 The user selects from the menu using numbers in terminal.
 
 
@@ -54,7 +55,7 @@ score for given column using minimum entropy (see third source).
  
 
 
-Next two tasks have been programmed in Python. Output displays at the terminal.
+Next two tasks have been programmed in Python (repository Bioinformatics_toolbox). Output displays at the terminal.
 Pdbparser.py is the basic parser used in both tasks. Data are downloaded from PDB database, stored at pdb_files folder.
 
 REQUIREMENTS:
