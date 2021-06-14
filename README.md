@@ -7,6 +7,11 @@ bioinformatics for mff course with id NDBI044
 First five assignments have been programmed in Java.
 The user selects from the menu using numbers in terminal.
 
+REQUIREMENTS:
+	- Python version 3.7.9
+	- Biopython (pip install biopython)
+	- Freesasa (pip install freesasa)
+
 1. FASTA parser (select number 1)
 
 Data are extracted from fasta file with examples of molecules.
