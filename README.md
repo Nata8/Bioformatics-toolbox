@@ -3,6 +3,16 @@
 Implementations of basic methods from the field of sequence and structural
 bioinformatics for mff course with id NDBI044
 
+# Getting Started
+
+## Requirements
+- Windows 10,
+- Python 3.7.5,
+- [BioPython](https://biopython.org/),
+- [FreeSASA](https://freesasa.github.io/python/)
+
+## Run
+- 
 
 First five assignments have been programmed in Java (repository Bioinformatics_toolbox_2nd). 
 Java 8 or later is necessary for compilation. 
