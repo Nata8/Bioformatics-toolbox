@@ -30,10 +30,10 @@ The user selects from the menu using numbers in terminal.
 Data are extracted from fasta file with examples of molecules.
 The user can see all possible molecule names from that file. 
 Second menu with following options:
-	*1. Return whether the given subsequence occurs in the file
+	- 1. Return whether the given subsequence occurs in the file
 	   (case-insensitive)
-	*2. Return sequence length for given sequence
-	*3. Return information about selected molecule 
+	- 2. Return sequence length for given sequence
+	- 3. Return information about selected molecule 
 	   - name, amino acid sequence and its length
 
 **2. Measuring sequence similarity using Hamming distance (select number 2)**
