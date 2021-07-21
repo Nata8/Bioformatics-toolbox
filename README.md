@@ -12,7 +12,9 @@ bioinformatics for mff course with id NDBI044
 - [FreeSASA](https://freesasa.github.io/python/)
 
 ## Run
-- `python <structpropts.py or processpdb.py>`
+- `git clone https://github.com/Nata8/Bioformatics-toolbox.git`
+- `cd Bioformatics-toolbox/`
+- `python3 <structpropts.py or processpdb.py>`
 
 First five assignments have been written in Java (repository `Bioinformatics_toolbox_2nd`). 
 Therefore, Java 8 or later is necessary for compilation.
