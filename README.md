@@ -29,12 +29,12 @@ The user selects from the menu using numbers in terminal.
 
 Data are extracted from fasta file with examples of molecules.
 The user can see all possible molecule names from that file. 
-Second menu with following options:
+Second menu with following options: <br />
 	1. Return whether the given subsequence occurs in the file
-	   (case-insensitive)
-	- 2. Return sequence length for given sequence
-	- 3. Return information about selected molecule 
-	   - name, amino acid sequence and its length
+	   (case-insensitive) <br />
+	2. Return sequence length for given sequence <br />
+	3. Return information about selected molecule <br />
+	   - name, amino acid sequence and its length <br />
 
 **2. Measuring sequence similarity using Hamming distance (select number 2)**
 
@@ -54,13 +54,13 @@ by dynamic programming (function ed) and backtracking (procedure backtracking).
 
 Originally, the program is using `msa.txt` file with sequence of DNA binding domain. 
 Hovewer, it can be changed inside class MsaRun -- msaParser. 
-There are four options to choose in this section:
-	- 1. Retrieve sequence by ID - show whole sequence according to its identifier.
+There are four options to choose in this section: <br />
+	1. Retrieve sequence by ID - show whole sequence according to its identifier. <br />
 	In case of DNA binding domain, there are five sequences - `DICA_ECOLI`, `IMMF_BPPH1`, 
-	`RPC_BPPH1`, `RPC_BPP2` and `RPC2_BPP22`.
-	- 2. Retrieve given column from the MSA - return column based on its numeric index. 
-	- 3. Retrieve sum of pairs score of a column based on its index
-	- 4. Retrieve sum of pairs score of whole MSA file 
+	`RPC_BPPH1`, `RPC_BPP2` and `RPC2_BPP22`. <br />
+	2. Retrieve given column from the MSA - return column based on its numeric index. <br />
+	3. Retrieve sum of pairs score of a column based on its index. <br />
+	4. Retrieve sum of pairs score of whole MSA file. <br />
 
 **5. Conservation determination from multiple aligned sequences (select number 5)**
 
