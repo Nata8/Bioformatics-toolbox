@@ -55,12 +55,12 @@ by dynamic programming (function ed) and backtracking (procedure backtracking).
 Originally, the program is using `msa.txt` file with sequence of DNA binding domain. 
 Hovewer, it can be changed inside class MsaRun -- msaParser. 
 There are four options to choose in this section:
-	1. Retrieve sequence by ID - show whole sequence according to its identifier.
+	- 1. Retrieve sequence by ID - show whole sequence according to its identifier.
 	In case of DNA binding domain, there are five sequences - `DICA_ECOLI`, `IMMF_BPPH1`, 
 	`RPC_BPPH1`, `RPC_BPP2` and `RPC2_BPP22`.
-	2. Retrieve given column from the MSA - return column based on its numeric index. 
-	3. Retrieve sum of pairs score of a column based on its index
-	4. Retrieve sum of pairs score of whole MSA file 
+	- 2. Retrieve given column from the MSA - return column based on its numeric index. 
+	- 3. Retrieve sum of pairs score of a column based on its index
+	- 4. Retrieve sum of pairs score of whole MSA file 
 
 **5. Conservation determination from multiple aligned sequences (select number 5)**
 
