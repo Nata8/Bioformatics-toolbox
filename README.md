@@ -15,6 +15,8 @@ bioinformatics for mff course with id NDBI044
 - `cd Bioformatics-toolbox/`
 - `python3 <structpropts.py or processpdb.py>`
 
+____________________________________________________________________________________________________________________________________________________________
+
 
 ## First Java Part
 
