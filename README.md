@@ -16,16 +16,16 @@ bioinformatics for mff course with id NDBI044
 - `cd Bioformatics-toolbox/`
 - `python3 <structpropts.py or processpdb.py>`
 
-## More information
+
+## First Java Part
 
 First five assignments have been written in Java (repository `Bioinformatics_toolbox_2nd`). 
 Therefore, Java 8 or later is necessary for compilation.
 
-## Usage
 The user selects from the menu using numbers in terminal.
 
 
-1. FASTA parser (select number 1)
+**1. FASTA parser (select number 1)
 
 Data are extracted from fasta file with examples of molecules.
 The user can see all possible molecule names from that file. 
@@ -36,7 +36,7 @@ Second menu with following options:
 	3. Return information about selected molecule 
 	   - name, amino acid sequence and its length
 
-2. Measuring sequence similarity using Hamming distance (select number 2)
+**2. Measuring sequence similarity using Hamming distance (select number 2)
 
 Data are extracted from the same fasta file mentioned above. 
 In this part, the user should select two molecules to calculate 
@@ -44,13 +44,13 @@ their Hamming distance (the number of positions in which these
 sequences differ). If the molecules differ in lenght, 
 error message "lengths are different" is shown. 
 
-3. Sequence alignment using edit distance (select number 3)
+**3. Sequence alignment using edit distance (select number 3)
 
 If the user wants to see the sequence alignment and edit distance value, 
 she/he should write down two sequences. Optimal alignmentns are obtained
 by dynamic programming (function ed) and backtracking (procedure backtracking).
 
-4. Processing multiple sequence alignment (select number 4)
+**4. Processing multiple sequence alignment (select number 4)
 
 Originally, the program is using `msa.txt` file with sequence of DNA binding domain. 
 Hovewer, it can be changed inside class MsaRun -- msaParser. 
@@ -62,19 +62,19 @@ There are four options to choose in this section:
 	3. Retrieve sum of pairs score of a column based on its index
 	4. Retrieve sum of pairs score of whole MSA file 
 
-5. Conservation determination from multiple aligned sequences (select number 5)
+**5. Conservation determination from multiple aligned sequences (select number 5)
 
 Originally, the program is using `msa.txt` file with sequence of DNA binding domain. 
 Hovewer, this can be changed inside class ConservationScoreRun -- msaPArser. 
 The numeric index of column is necessary for this task. Result is a conservative
 score for given column using minimum entropy (see third source).
  
-
+## Second Python Part
 
 Next two tasks have been written in Python (repository `Bioinformatics_toolbox`). Output displays at the terminal.
 `pdbparser.py` is the basic parser used in both tasks. Data are downloaded from PDB database, stored in `pdb_files` directory.
 
-6. Processing PDB files (`processpbd.py`)
+**6. Processing PDB files (`processpbd.py`)
 
 First, the user have to enter four-digit PDB identifier. If the file is not already downloaded,
 the PDB file will be downloaded and stored. The implementation provides following functions as an output:
@@ -85,7 +85,7 @@ Subsequently, the user should enter the serial number of a ligand and radius (di
 Ligands can be found in PDB file - lines starting with HETATM. The output is a list of atoms and residues
 being in given distance from given ligand and coordinates of ligand.
 
-7. Computing structure-related properties (`structpropts.py`)
+**7. Computing structure-related properties (`structpropts.py`)
 
 With help of the previous PDB parser, the implementation provides following functions as an output:
 
