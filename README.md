@@ -7,13 +7,15 @@ bioinformatics for mff course with id NDBI044
 
 ## Requirements
 - [Python 3.7.5](https://www.python.org/),
-- [BioPython](https://biopython.org/), `pip install biopython`
+- [BioPython](https://biopython.org/), `pip install bio`
 - [FreeSASA](https://freesasa.github.io/python/) `pip install freesasa`
 
 ## Run this repository (copy and paste)
 - `git clone https://github.com/Nata8/Bioformatics-toolbox.git`
 - `cd Bioformatics-toolbox/`
-- `python3 <structpropts.py or processpdb.py>`
+- `source env/bin/activate`
+- `python3 (proccesspdb.py or structpropts.py)`
+- `deactivate` 
 
 ____________________________________________________________________________________________________________________________________________________________
 
