@@ -1,7 +1,7 @@
 # Bioformatics-toolbox
 
 Implementations of basic methods from the field of sequence and structural
-bioinformatics for mff course with id NDBI044
+bioinformatics for mff course with id **NDBI044**.
 
 # Getting Started
 
