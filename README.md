@@ -34,11 +34,11 @@ ________________________________________________________________________________
 
 ## First Java Part
 
-First five assignments have been written in Java (repository `[Bioinformatics_toolbox_2nd](https://github.com/Nata8/Bioinformatics_toolbox_2nd)`). 
+First five assignments have been written in Java (repository [Bioinformatics_toolbox_2nd](https://github.com/Nata8/Bioinformatics_toolbox_2nd)). 
  
 ## Second Python Part
 
-Next two tasks have been written in Python (repository `[Bioinformatics_toolbox](https://github.com/Nata8/Bioformatics-toolbox)`). Output displays at the terminal.
+Next two tasks have been written in Python (repository [Bioinformatics_toolbox](https://github.com/Nata8/Bioformatics-toolbox)). Output displays at the terminal.
 `pdbparser.py` is the basic parser used in both tasks. Data are downloaded from PDB database, stored in `pdb_files` directory.
 
 **6. Processing PDB files (`processpbd.py`)**
