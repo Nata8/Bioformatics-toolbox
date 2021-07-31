@@ -10,7 +10,7 @@ bioinformatics for mff course with id **NDBI044**.
 - [BioPython](https://biopython.org/), `pip install bio`
 - [FreeSASA](https://freesasa.github.io/python/) `pip install freesasa`
 
-## Run this repository (copy and paste)
+## Run this repository in virtual environment (copy and paste)
 
 
 **Clone whole repository from github: <br />**
