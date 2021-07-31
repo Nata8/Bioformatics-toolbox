@@ -11,20 +11,20 @@ bioinformatics for mff course with id NDBI044
 - [FreeSASA](https://freesasa.github.io/python/) `pip install freesasa`
 
 ## Run this repository (copy and paste)
-\n\t
+
 
 **Clone whole repository from github: <br />**
 - `git clone https://github.com/Nata8/Bioformatics-toolbox.git` <br />
-- 
+
 **Navigate to the repository: <br />**
 - `cd Bioformatics-toolbox/` <br />
-- 
+
 **Active your virtual environment: <br />**
 - `source env/bin/activate` <br />
-- 
+
 **Run python scripts: <br />**
 - `python3 (proccesspdb.py or structpropts.py)` <br />
-- 
+
 **Deactivate the virtual environment: <br />**
 - `deactivate`  <br />
 
