@@ -44,9 +44,9 @@ Next two tasks have been written in Python (repository [Bioinformatics_toolbox](
 **6. Processing PDB files (`processpbd.py`)**
 
 First, the user have to enter four-digit PDB identifier. If the file is not already downloaded,
-the PDB file will be downloaded and stored. The implementation provides following functions as an output:
-	- proteine structure width (maximum of distance of any two atoms)
-	- number of models, chains, residues and atoms in the structure
+the PDB file will be downloaded and stored. The implementation provides following functions as an output: <br />
+	- proteine structure width (maximum of distance of any two atoms) <br />
+	- number of models, chains, residues and atoms in the structure <br />
 
 Subsequently, the user should enter the serial number of a ligand and radius (distance from given ligand).
 Ligands can be found in PDB file - lines starting with HETATM. The output is a list of atoms and residues
